@@ -1,3 +1,5 @@
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Mercury35!'
+
 CREATE DATABASE burger_db;
 USE burger_db;
 
