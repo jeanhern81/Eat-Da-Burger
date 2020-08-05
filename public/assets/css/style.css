@@ -1,4 +1,4 @@
-/* ------------------------------------ GENERAL */
+/* GENERAL */
 
 body {
 	font-family: "Mina", sans-serif;
@@ -17,7 +17,7 @@ div.burgerblock {
 	border-radius: 15px;
 }
 
-/* ------------------------------------ MISCELLANEOUS */
+/* MISCELLANEOUS */
 
 input.form-control {
 	display: inline-block;
@@ -37,7 +37,7 @@ button {
 	border-radius: 5px;
 }
 
-/* ------------------------------------ IMAGES */
+/*  IMAGES */
 
 img.icon {
 	margin: 10px auto;
@@ -51,7 +51,7 @@ img.tinyicon {
 	height: 50px;
 }
 
-img.burgericon {
+img.tinyburger {
 	margin-bottom: 15px;
 }
 
@@ -59,7 +59,7 @@ img.eaten {
 	filter: grayscale(100%);
 }
 
-/* ------------------------------------ HEADERS AND TEXT */
+/* HEADERS AND TEXT */
 
 h1 {
 	font-size: 50px;
@@ -84,3 +84,8 @@ p.footer {
 	font-size: 10px;
 	text-transform: uppercase;
 }
+
+
+
+
+

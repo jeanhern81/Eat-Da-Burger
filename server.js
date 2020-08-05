@@ -21,6 +21,7 @@ app.use(routes);
 
 // loads static files
 app.use(express.static("./public"));
+//app.use(express.static(__dirname + '/public'))
 
 // starts Express.js server
 app.listen(PORT, function() {
