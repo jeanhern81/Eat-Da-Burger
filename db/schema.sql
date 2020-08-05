@@ -1,11 +1,15 @@
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Mercury35!'
-
+--create database
+DROP DATABASE IF EXISTS burger_db;
 CREATE DATABASE burger_db;
+
+--use database
 USE burger_db;
 
-CREATE TABLE Burgers
+
+--table
+CREATE TABLE burgers 
 (
-	id int NOT NULL AUTO_INCREMENT,
+	id int NOT(10) NULL AUTO_INCREMENT,
     burger_name VARCHAR(75) NOT NULL,
     devoured BOOLEAN NOT NULL,
 	PRIMARY KEY (id)
