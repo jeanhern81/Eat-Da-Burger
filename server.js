@@ -5,7 +5,7 @@ var exphbs = require("express-handlebars");
 
 // initializes Express.js server and defines port
 var app = express();
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3000;
 
 // sets up data parsing
 app.use(bodyParser.urlencoded({ extended: true }));
