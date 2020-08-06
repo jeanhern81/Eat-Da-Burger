@@ -9,10 +9,13 @@ if (process.env.JAWSDB_URL) {
     port: 3306,
     user: "root",
     password: "Mercury35!",
-    database: "burger_db"
-});
-
+    database: "burger_db",
+    });
 };
+
+
+
+
 // Make connection.
 connection.connect(function(err) {
 if (err) {
