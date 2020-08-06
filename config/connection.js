@@ -12,7 +12,7 @@ if (process.env.JAWSDB_URL) {
     password: "Mercury35!",
     database: "burger_db"
     });
-};
+}
 
 
 
