@@ -6,7 +6,7 @@ Application deployed by using Heroku.
 
 ---
 
-![demo](./public/assets/img/screenshot.JPG)
+![screenshot](./public/assets/img/screenshot.JPG)
 
 ---
 
